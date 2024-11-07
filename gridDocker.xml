@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DockerGrid" thread-count="5">
+	<listeners>
+		<listener class-name="com.opencart.utils.ExtentReportManager" />
+	</listeners>
+	<test name="linux-chrome">
+		<parameter name="os" value="linux" />
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.opencart.testcases.RegistrationTest" />
+		</classes>
+	</test> <!--
+	Test -->
+
+	<!-- <test name="linux-edge">
+		<parameter name="os" value="linux" />
+		<parameter name="browser" value="edge" />
+		<classes>
+			<class name="com.opencart.testcases.RegistrationTest" />
+		</classes>
+	</test> -->
+</suite> <!--
+Suite -->

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-07T12:36:34 IST" name="Opencart Test Suite" finished-at="2024-11-07T12:36:41 IST" duration-ms="7164">
+    <groups>
+      <group name="functional">
+        <method signature="LoginTest.verifyLogin()[pri:0, instance:com.opencart.testcases.LoginTest@6c2c1385]" name="verifyLogin" class="com.opencart.testcases.LoginTest"/>
+        <method signature="HomePageTest.navigateToRegistrationPageTest()[pri:4, instance:com.opencart.testcases.HomePageTest@492691d7]" name="navigateToRegistrationPageTest" class="com.opencart.testcases.HomePageTest"/>
+      </group> <!-- functional -->
+      <group name="regression">
+        <method signature="LoginTest.verifyLogin()[pri:0, instance:com.opencart.testcases.LoginTest@6c2c1385]" name="verifyLogin" class="com.opencart.testcases.LoginTest"/>
+        <method signature="HomePageTest.verifyOpenCartLogoTest()[pri:1, instance:com.opencart.testcases.HomePageTest@492691d7]" name="verifyOpenCartLogoTest" class="com.opencart.testcases.HomePageTest"/>
+        <method signature="HomePageTest.verifyFeaturedCardsCountTest()[pri:3, instance:com.opencart.testcases.HomePageTest@492691d7]" name="verifyFeaturedCardsCountTest" class="com.opencart.testcases.HomePageTest"/>
+        <method signature="HomePageTest.navigateToRegistrationPageTest()[pri:4, instance:com.opencart.testcases.HomePageTest@492691d7]" name="navigateToRegistrationPageTest" class="com.opencart.testcases.HomePageTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="LoginTest.verifyLogin()[pri:0, instance:com.opencart.testcases.LoginTest@6c2c1385]" name="verifyLogin" class="com.opencart.testcases.LoginTest"/>
+        <method signature="HomePageTest.verifyFeaturedCardsCountTest()[pri:3, instance:com.opencart.testcases.HomePageTest@492691d7]" name="verifyFeaturedCardsCountTest" class="com.opencart.testcases.HomePageTest"/>
+        <method signature="HomePageTest.navigateToRegistrationPageTest()[pri:4, instance:com.opencart.testcases.HomePageTest@492691d7]" name="navigateToRegistrationPageTest" class="com.opencart.testcases.HomePageTest"/>
+      </group> <!-- sanity -->
+      <group name="login">
+        <method signature="LoginTest.verifyLogin()[pri:0, instance:com.opencart.testcases.LoginTest@6c2c1385]" name="verifyLogin" class="com.opencart.testcases.LoginTest"/>
+      </group> <!-- login -->
+      <group name="homepage">
+        <method signature="HomePageTest.verifyOpenCartLogoTest()[pri:1, instance:com.opencart.testcases.HomePageTest@492691d7]" name="verifyOpenCartLogoTest" class="com.opencart.testcases.HomePageTest"/>
+        <method signature="HomePageTest.verifyFeaturedCardsCountTest()[pri:3, instance:com.opencart.testcases.HomePageTest@492691d7]" name="verifyFeaturedCardsCountTest" class="com.opencart.testcases.HomePageTest"/>
+        <method signature="HomePageTest.navigateToRegistrationPageTest()[pri:4, instance:com.opencart.testcases.HomePageTest@492691d7]" name="navigateToRegistrationPageTest" class="com.opencart.testcases.HomePageTest"/>
+      </group> <!-- homepage -->
+    </groups>
+    <test started-at="2024-11-07T12:36:34 IST" name="Regression Tests" finished-at="2024-11-07T12:36:41 IST" duration-ms="7164">
+      <class name="com.opencart.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.opencart.testcases.HomePageTest@492691d7]" started-at="2024-11-07T12:36:34 IST" name="setUp" finished-at="2024-11-07T12:36:36 IST" duration-ms="2671" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.opencart.testcases.HomePageTest@492691d7]" started-at="2024-11-07T12:36:37 IST" name="beforeClass" finished-at="2024-11-07T12:36:37 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="verifyOpenCartLogoTest()[pri:1, instance:com.opencart.testcases.HomePageTest@492691d7]" started-at="2024-11-07T12:36:37 IST" name="verifyOpenCartLogoTest" description="TC_01_Verifying the opencart logo" finished-at="2024-11-07T12:36:37 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpenCartLogoTest -->
+        <test-method signature="verifyFeaturedCardsCountTest()[pri:3, instance:com.opencart.testcases.HomePageTest@492691d7]" started-at="2024-11-07T12:36:37 IST" name="verifyFeaturedCardsCountTest" description="TC_03_Verifying the featured section cards count" finished-at="2024-11-07T12:36:37 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFeaturedCardsCountTest -->
+        <test-method signature="navigateToRegistrationPageTest()[pri:4, instance:com.opencart.testcases.HomePageTest@492691d7]" started-at="2024-11-07T12:36:37 IST" name="navigateToRegistrationPageTest" description="TC_04_navigate to registration page" finished-at="2024-11-07T12:36:37 IST" duration-ms="592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToRegistrationPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testcases.HomePageTest@492691d7]" started-at="2024-11-07T12:36:37 IST" name="tearDown" finished-at="2024-11-07T12:36:38 IST" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.opencart.testcases.HomePageTest -->
+      <class name="com.opencart.testcases.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.opencart.testcases.LoginTest@6c2c1385]" started-at="2024-11-07T12:36:38 IST" name="setUp" finished-at="2024-11-07T12:36:39 IST" duration-ms="1797" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.opencart.testcases.LoginTest@6c2c1385]" started-at="2024-11-07T12:36:39 IST" name="beforeClass" finished-at="2024-11-07T12:36:39 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="verifyLogin()[pri:0, instance:com.opencart.testcases.LoginTest@6c2c1385]" started-at="2024-11-07T12:36:39 IST" name="verifyLogin" description="Tc_01_Verifying login with registered credentials" finished-at="2024-11-07T12:36:41 IST" duration-ms="1127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testcases.LoginTest@6c2c1385]" started-at="2024-11-07T12:36:41 IST" name="tearDown" finished-at="2024-11-07T12:36:41 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.opencart.testcases.LoginTest -->
+    </test> <!-- Regression Tests -->
+  </suite> <!-- Opencart Test Suite -->
+</testng-results>

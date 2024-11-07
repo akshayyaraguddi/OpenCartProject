@@ -1,0 +1,6 @@
+com\opencart\testcases\LoginTest.class
+com\opencart\testcases\RegistrationTest.class
+com\opencart\testcases\ForgotPasswordTest.class
+com\opencart\testcases\MyAccountTest.class
+com\opencart\testcases\HomePageTest.class
+com\opencart\testcases\LoginDataDrivenTest.class

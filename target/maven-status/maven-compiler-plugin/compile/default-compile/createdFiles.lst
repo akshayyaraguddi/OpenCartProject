@@ -1,0 +1,13 @@
+com\opencart\utils\DataProviders.class
+com\opencart\pages\RegistrationPage.class
+com\opencart\utils\ExcelUtils.class
+com\opencart\base\BasePage.class
+com\opencart\pages\ForgotPasswordPage.class
+com\opencart\utils\ExtentReportManager.class
+com\opencart\utils\Constants.class
+com\opencart\pages\LoginPage.class
+com\opencart\pages\MyAccountPage.class
+com\opencart\utils\DataUtils.class
+com\opencart\pages\HomePage.class
+com\opencart\utils\PropertyFileReader.class
+com\opencart\base\BaseTest.class
