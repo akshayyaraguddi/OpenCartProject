@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Opencart Test Suite" parallel="classes" >
+<suite name="Opencart Test Suite">
 	<listeners>
 		<listener class-name="com.opencart.utils.ExtentReportManager" />
 	</listeners>
@@ -10,20 +10,20 @@
 		<parameter name="browser" value="chrome" />
 		<groups>
 			<run>
-				<include name="registration" />
+				<!-- <include name="registration" />
 				<include name="homepage" />
 				<include name="login" />
-				<include name="forgot password" />
+				<include name="forgot password" />-->
 				<include name="my account" />
 			</run>
 		</groups>
 
 		<classes>
-			<class name="com.opencart.testcases.HomePageTest" />
+			<!-- <class name="com.opencart.testcases.HomePageTest" />
 			<class name="com.opencart.testcases.RegistrationTest" />
 			<class name="com.opencart.testcases.LoginTest" />
-			<!--<class name="com.opencart.testcases.LoginDataDrivenTest" />-->
-			<class name="com.opencart.testcases.ForgotPasswordTest" />
+			<class name="com.opencart.testcases.LoginDataDrivenTest" />
+			<class name="com.opencart.testcases.ForgotPasswordTest" /-->
 			<class name="com.opencart.testcases.MyAccountTest" />
 		</classes>
 	</test>

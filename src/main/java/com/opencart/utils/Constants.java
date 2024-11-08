@@ -19,5 +19,6 @@ public class Constants
 	public static final String FORGOTPASSWORD_INVALID_EMAIL_ERROR_MESSAGE="Warning: The E-Mail Address was not found in our records, please try again!";
 	public static final List<String> MYACCOUNT_HEADERLIST= Arrays.asList("My Account", "My Orders", "My Affiliate Account", "Newsletter");
 	public static final List<String> MYACCOUNT_MENU_OPTIONSLIST= Arrays.asList("My Account", "Order History", "Transactions", "Downloads", "Logout");
+	public static final String NOPRODUCT_TEXT_MESSAGE= "There is no product that matches the search criteria.";
 
 }

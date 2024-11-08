@@ -1,0 +1,126 @@
+2024-11-08 18:02:33 INFO  HomePageTest:104 - Launching the Chrome browser with a unique profile
+2024-11-08 18:02:36 INFO  HomePageTest:126 - Opening the URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2024-11-08 18:02:37 INFO  HomePageTest:28 - Verifying the opencart logo
+2024-11-08 18:02:37 INFO  HomePageTest:55 - Verifying the featured section cards count
+2024-11-08 18:02:37 INFO  HomePageTest:68 - Clicking on registration link
+2024-11-08 18:02:38 INFO  HomePageTest:71 - Verify the Registration page title
+2024-11-08 18:02:38 INFO  HomePageTest:74 - Navigated to registration page
+2024-11-08 18:02:38 INFO  HomePageTest:80 - Navigated to home page
+2024-11-08 18:02:38 INFO  HomePageTest:132 - Closing the browser
+2024-11-08 18:02:38 INFO  LoginTest:104 - Launching the Chrome browser with a unique profile
+2024-11-08 18:02:39 INFO  LoginTest:126 - Opening the URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2024-11-08 18:02:40 INFO  LoginTest:25 - Starting login test case
+2024-11-08 18:02:40 INFO  LoginTest:26 - Clicking on my account
+2024-11-08 18:02:40 INFO  LoginTest:28 - Clicking on login link
+2024-11-08 18:02:41 INFO  LoginTest:30 - Entering login email address
+2024-11-08 18:02:41 INFO  LoginTest:32 - Entering login password
+2024-11-08 18:02:41 INFO  LoginTest:34 - Clicking on the login button
+2024-11-08 18:02:42 INFO  LoginTest:37 - Verifying if 'My Account' is present
+2024-11-08 18:02:42 INFO  LoginTest:39 - Login test case completed successfully
+2024-11-08 18:02:42 INFO  LoginTest:132 - Closing the browser
+2024-11-08 18:02:42 INFO  RegistrationTest:104 - Launching the Chrome browser with a unique profile
+2024-11-08 18:02:43 INFO  RegistrationTest:126 - Opening the URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2024-11-08 18:02:44 INFO  RegistrationTest:28 - Navigating to registeration page
+2024-11-08 18:02:45 INFO  RegistrationTest:37 - Starting registration test case
+2024-11-08 18:02:45 INFO  RegistrationTest:39 - Entering random first name
+2024-11-08 18:02:45 INFO  RegistrationTest:41 - Entering random last name
+2024-11-08 18:02:45 INFO  RegistrationTest:43 - Entering random email
+2024-11-08 18:02:45 INFO  RegistrationTest:45 - Entering random telephone number
+2024-11-08 18:02:45 INFO  RegistrationTest:48 - Setting password
+2024-11-08 18:02:45 INFO  RegistrationTest:50 - Confirming password
+2024-11-08 18:02:46 INFO  RegistrationTest:52 - Accepting privacy policy
+2024-11-08 18:02:46 INFO  RegistrationTest:54 - Clicking on Continue button to submit the registration form
+2024-11-08 18:02:46 INFO  RegistrationTest:56 - Verifying account creation success message
+2024-11-08 18:02:46 INFO  RegistrationTest:59 - Click on continue button after registration
+2024-11-08 18:02:47 INFO  RegistrationTest:61 - Verify the my account title and then logout
+2024-11-08 18:02:47 INFO  RegistrationTest:64 - Registration test case completed successfully
+2024-11-08 18:02:47 INFO  RegistrationTest:28 - Navigating to registeration page
+2024-11-08 18:02:48 INFO  RegistrationTest:78 - Starting registration test case
+2024-11-08 18:02:48 INFO  RegistrationTest:80 - Entering random first name
+2024-11-08 18:02:48 INFO  RegistrationTest:82 - Entering random last name
+2024-11-08 18:02:48 INFO  RegistrationTest:84 - Entering used email
+2024-11-08 18:02:48 INFO  RegistrationTest:86 - Entering random telephone number
+2024-11-08 18:02:48 INFO  RegistrationTest:89 - Setting password
+2024-11-08 18:02:48 INFO  RegistrationTest:91 - Confirming password
+2024-11-08 18:02:48 INFO  RegistrationTest:93 - Accepting privacy policy
+2024-11-08 18:02:49 INFO  RegistrationTest:95 - Clicking on Continue button to submit the registration form
+2024-11-08 18:02:49 INFO  RegistrationTest:97 - Verifying the email already in use error message
+2024-11-08 18:02:49 INFO  RegistrationTest:99 - Email already in use error displayed, registration test case completed successfully.
+2024-11-08 18:02:49 INFO  RegistrationTest:113 - Registration was correctly blocked for an already used email.
+2024-11-08 18:02:49 INFO  RegistrationTest:28 - Navigating to registeration page
+2024-11-08 18:02:49 INFO  RegistrationTest:120 - Starting registration test case
+2024-11-08 18:02:49 INFO  RegistrationTest:122 - Entering random first name
+2024-11-08 18:02:49 INFO  RegistrationTest:124 - Entering random last name
+2024-11-08 18:02:49 INFO  RegistrationTest:126 - Entering used email
+2024-11-08 18:02:50 INFO  RegistrationTest:128 - Entering random telephone number
+2024-11-08 18:02:50 INFO  RegistrationTest:130 - Setting password
+2024-11-08 18:02:50 INFO  RegistrationTest:132 - Confirm with different password
+2024-11-08 18:02:50 INFO  RegistrationTest:134 - Accepting privacy policy
+2024-11-08 18:02:50 INFO  RegistrationTest:136 - Clicking on Continue button to submit the registration form
+2024-11-08 18:02:50 INFO  RegistrationTest:138 - Verifying the error message when the Password and Confirm Password fields do not match
+2024-11-08 18:02:50 INFO  RegistrationTest:140 - Password mismatch error message displayed and test case is passed
+2024-11-08 18:02:50 INFO  RegistrationTest:28 - Navigating to registeration page
+2024-11-08 18:02:51 INFO  RegistrationTest:152 - Starting registration test case
+2024-11-08 18:02:51 INFO  RegistrationTest:154 - Entering random first name
+2024-11-08 18:02:51 INFO  RegistrationTest:156 - Entering random last name
+2024-11-08 18:02:51 INFO  RegistrationTest:158 - Entering used email
+2024-11-08 18:02:51 INFO  RegistrationTest:160 - Entering random telephone number
+2024-11-08 18:02:51 INFO  RegistrationTest:162 - Setting password
+2024-11-08 18:02:51 INFO  RegistrationTest:164 - Confirm with different password
+2024-11-08 18:02:51 INFO  RegistrationTest:166 - Clicking on Continue button without accepting privacy policy
+2024-11-08 18:02:52 INFO  RegistrationTest:168 - Verifying the error message for selecting the privacy policy
+2024-11-08 18:02:52 INFO  RegistrationTest:170 - Accept privacy policy error message displayed and test case is passed
+2024-11-08 18:02:52 INFO  RegistrationTest:28 - Navigating to registeration page
+2024-11-08 18:02:52 INFO  RegistrationTest:182 - Starting registration test case
+2024-11-08 18:02:52 INFO  RegistrationTest:183 - Clicking on privacy policy link
+2024-11-08 18:02:52 INFO  RegistrationTest:185 - Verifying the privacy policy pop-up is displayed
+2024-11-08 18:02:52 INFO  RegistrationTest:187 - Privacy policy pop-up is being displayed
+2024-11-08 18:02:53 INFO  RegistrationTest:190 - Verify the privacy policy content
+2024-11-08 18:02:53 INFO  RegistrationTest:192 - Privacy policy content is verified and test case is passed
+2024-11-08 18:02:53 INFO  RegistrationTest:132 - Closing the browser
+2024-11-08 18:02:53 INFO  ForgotPasswordTest:104 - Launching the Chrome browser with a unique profile
+2024-11-08 18:02:54 INFO  ForgotPasswordTest:126 - Opening the URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2024-11-08 18:02:55 INFO  ForgotPasswordTest:26 - Navigating to login page
+2024-11-08 18:02:56 INFO  ForgotPasswordTest:41 - Clicking on forgotten password link
+2024-11-08 18:02:56 INFO  ForgotPasswordTest:44 - Enter the registered email address and continue
+2024-11-08 18:02:57 INFO  ForgotPasswordTest:47 - Verify the email sent confirmation success message
+2024-11-08 18:02:57 INFO  ForgotPasswordTest:49 - Email sent succesffuly and test case passed
+2024-11-08 18:02:57 INFO  ForgotPasswordTest:33 - Navigating back to login page
+2024-11-08 18:02:58 INFO  ForgotPasswordTest:26 - Navigating to login page
+2024-11-08 18:02:58 INFO  ForgotPasswordTest:59 - Clicking on forgotten password link
+2024-11-08 18:02:59 INFO  ForgotPasswordTest:62 - Enter the registered email address and continue
+2024-11-08 18:02:59 INFO  ForgotPasswordTest:66 - Verify the error message
+2024-11-08 18:02:59 INFO  ForgotPasswordTest:70 - Invalid user error message is displayed and test case is passed
+2024-11-08 18:02:59 INFO  ForgotPasswordTest:33 - Navigating back to login page
+2024-11-08 18:02:59 INFO  ForgotPasswordTest:132 - Closing the browser
+2024-11-08 18:03:00 INFO  MyAccountTest:104 - Launching the Chrome browser with a unique profile
+2024-11-08 18:03:01 INFO  MyAccountTest:126 - Opening the URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2024-11-08 18:03:03 INFO  MyAccountTest:29 - Verify My Account page title
+2024-11-08 18:03:03 INFO  MyAccountTest:31 - Start executing my account test cases
+2024-11-08 18:03:03 INFO  MyAccountTest:39 - Verifying my account header list
+2024-11-08 18:03:03 INFO  MyAccountTest:41 - My account header list is verified and test case is passed
+2024-11-08 18:03:03 INFO  MyAccountTest:53 - Verifying my account options list
+2024-11-08 18:03:03 INFO  MyAccountTest:55 - MY account options are verified and test case passed
+2024-11-08 18:03:03 INFO  MyAccountTest:86 - Searching for the product: Samsung
+2024-11-08 18:03:04 INFO  MyAccountTest:89 - Verifying the results are displayed for the product: Samsung
+2024-11-08 18:03:04 INFO  MyAccountTest:91 - Verifying that the searched products are displaying
+2024-11-08 18:03:04 INFO  MyAccountTest:86 - Searching for the product: Macbook
+2024-11-08 18:03:05 INFO  MyAccountTest:89 - Verifying the results are displayed for the product: Macbook
+2024-11-08 18:03:05 INFO  MyAccountTest:91 - Verifying that the searched products are displaying
+2024-11-08 18:03:05 INFO  MyAccountTest:86 - Searching for the product: iMac
+2024-11-08 18:03:06 INFO  MyAccountTest:89 - Verifying the results are displayed for the product: iMac
+2024-11-08 18:03:06 INFO  MyAccountTest:91 - Verifying that the searched products are displaying
+2024-11-08 18:03:06 INFO  MyAccountTest:132 - Closing the browser
+2024-11-08 22:22:25 INFO  MyAccountTest:104 - Launching the Chrome browser with a unique profile
+2024-11-08 22:22:29 INFO  MyAccountTest:126 - Opening the URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2024-11-08 22:22:31 INFO  MyAccountTest:29 - Verify My Account page title
+2024-11-08 22:22:31 INFO  MyAccountTest:31 - Start executing my account test cases
+2024-11-08 22:22:31 INFO  MyAccountTest:104 - Searching for a non-existing product
+2024-11-08 22:22:31 INFO  MyAccountTest:114 - Message is correct, and the test case has passed.
+2024-11-08 22:22:31 INFO  MyAccountTest:132 - Closing the browser
+2024-11-08 22:23:42 INFO  MyAccountTest:104 - Launching the Chrome browser with a unique profile
+2024-11-08 22:23:44 INFO  MyAccountTest:126 - Opening the URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2024-11-08 22:23:47 INFO  MyAccountTest:29 - Verify My Account page title
+2024-11-08 22:23:47 INFO  MyAccountTest:31 - Start executing my account test cases
+2024-11-08 22:23:47 INFO  MyAccountTest:104 - Searching for a non-existing product
+2024-11-08 22:23:48 INFO  MyAccountTest:132 - Closing the browser

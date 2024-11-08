@@ -17,10 +17,10 @@
 		<classes>
 			<class name="com.opencart.testcases.HomePageTest" />
 			<class name="com.opencart.testcases.LoginTest" />
-			<!-- <class name="com.opencart.testcases.RegistrationTest" />
-			<class name="com.opencart.testcases.LoginDataDrivenTest" />
+			<class name="com.opencart.testcases.RegistrationTest" />
+			<!-- <class name="com.opencart.testcases.LoginDataDrivenTest" />-->
 			<class name="com.opencart.testcases.ForgotPasswordTest" />
-			<class name="com.opencart.testcases.MyAccountTest" />-->
+			<class name="com.opencart.testcases.MyAccountTest" />
 		</classes>
 	</test>
 

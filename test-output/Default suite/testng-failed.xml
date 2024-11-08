@@ -5,10 +5,10 @@
     <classes>
       <class name="com.opencart.testcases.MyAccountTest">
         <methods>
-          <include name="beforeClass"/>
-          <include name="tearDown"/>
-          <include name="verifyMyAccountHeaderList"/>
+          <include name="searchWithNonExistingProductTest"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
         </methods>
       </class> <!-- com.opencart.testcases.MyAccountTest -->
     </classes>

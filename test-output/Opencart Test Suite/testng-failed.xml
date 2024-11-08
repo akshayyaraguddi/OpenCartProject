@@ -4,23 +4,23 @@
   <listeners>
     <listener class-name="com.opencart.utils.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" name="Regression Tests(failed)">
+  <test thread-count="5" name="Module Tests(failed)">
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <groups>
       <run>
-        <include name="regression"/>
+        <include name="my account"/>
       </run>
     </groups>
     <classes>
-      <class name="com.opencart.testcases.LoginTest">
+      <class name="com.opencart.testcases.MyAccountTest">
         <methods>
+          <include name="searchWithNonExistingProductTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="verifyLogin"/>
           <include name="beforeClass"/>
         </methods>
-      </class> <!-- com.opencart.testcases.LoginTest -->
+      </class> <!-- com.opencart.testcases.MyAccountTest -->
     </classes>
-  </test> <!-- Regression Tests(failed) -->
+  </test> <!-- Module Tests(failed) -->
 </suite> <!-- Failed suite [Opencart Test Suite] -->

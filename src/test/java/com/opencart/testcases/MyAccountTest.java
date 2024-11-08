@@ -60,7 +60,7 @@ public class MyAccountTest extends BaseTest
 		}
 	  }
 	
-	@Test(description="TC_03_Verify the links status in my account page",groups= {"my account"})
+	@Test(description="TC_03_Verify the links status in my account page",priority = 3, groups= {"my account"})
 	  public void verifyBrokenLinksInMyAccountPageTest()
 	  {
 		log.info("Getting the status of all links in my account page");
@@ -79,7 +79,7 @@ public class MyAccountTest extends BaseTest
 		}
 	  }
 	  
-	  @Test(description="TC_04_Perform the product search", dataProvider = "productSearchData", dataProviderClass = DataProviders.class, priority = 3,groups= {"my account","regression","sanity","functional"})
+	  @Test(description="TC_04_Perform the product search", dataProvider = "productSearchData", dataProviderClass = DataProviders.class, priority = 4,groups= {"my account","regression","sanity","functional"})
 	  public void performProductSearchTest(String productName)
 	  {
 		  try {
@@ -97,6 +97,27 @@ public class MyAccountTest extends BaseTest
 			Assert.fail();
 		}
 	  }
+	  
+	  @Test(description = "TC_05_Verify searching with a non existing Product Name", priority = 5,groups= {"my account","functional"})
+	  public void searchWithNonExistingProductTest() {
+		    try {
+		        log.info("Searching for a non-existing product");
+		        
+		        // Searching for a non-existing product
+		        myAccountPage.searchProduct("test123");
+		        myAccountPage.clickOnSearchButton();
+		        
+		        // Verifying that a proper 'no results' message is displayed
+		        String actualMessage = myAccountPage.getNoProductMatchText();
+		        Assert.assertEquals(actualMessage, Constants.NOPRODUCT_TEXT_MESSAGE, "No product match message is incorrect.");
+		        
+		        log.info("Message is correct, and the test case has passed.");
+		    } catch (Exception e) {
+		        log.error("Test case failed due to an exception: ", e);
+		        Assert.fail("Test case failed due to an exception: " + e.getMessage());
+		    }
+		}
+
 	
 
 }

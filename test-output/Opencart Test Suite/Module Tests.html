@@ -55,115 +55,67 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Module Tests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>18/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Oct 25 13:33:16 IST 2024</td>
+<td>Started on:</td><td>Fri Nov 08 22:23:42 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>49 seconds (49452 ms)</td>
+<tr><td>Total time:</td><td>6 seconds (6755 ms)</td>
 </tr><tr>
-<td>Included groups:</td><td>forgot password registration login homepage my account </td>
+<td>Included groups:</td><td>my account </td>
 </tr><tr>
 <td>Excluded groups:</td><td></td>
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.opencart.testcases.RegistrationTest.verifyAccountRegistrationWithEmailId()'><b>verifyAccountRegistrationWithEmailId</b><br>Test class: com.opencart.testcases.RegistrationTest<br>Test method: TC_01_Verifying the account registration with valid data</td>
-<td></td>
-<td>4</td>
-<td>com.opencart.testcases.RegistrationTest@5c33f1a9</td></tr>
-<tr>
-<td title='com.opencart.testcases.MyAccountTest.performProductSearchTest()'><b>performProductSearchTest</b><br>Test class: com.opencart.testcases.MyAccountTest<br>Test method: TC_04_Perform the product search<br>Parameters: Samsung</td>
-<td></td>
+<td title='com.opencart.testcases.MyAccountTest.searchWithNonExistingProductTest()'><b>searchWithNonExistingProductTest</b><br>Test class: com.opencart.testcases.MyAccountTest<br>Test method: TC_05_Verify searching with a non existing Product Name</td>
+<td><div><pre>java.lang.AssertionError: No product match message is incorrect. expected [Ther is no product that matches the search criteria.] but found [There is no product that matches the search criteria.]
+	at com.opencart.testcases.MyAccountTest.searchWithNonExistingProductTest(MyAccountTest.java:112)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1481731217", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1481731217'><pre>java.lang.AssertionError: No product match message is incorrect. expected [Ther is no product that matches the search criteria.] but found [There is no product that matches the search criteria.]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at com.opencart.testcases.MyAccountTest.searchWithNonExistingProductTest(MyAccountTest.java:112)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
 <td>1</td>
-<td>com.opencart.testcases.MyAccountTest@223191a6</td></tr>
-<tr>
-<td title='com.opencart.testcases.HomePageTest.navigateToRegistrationPageTest()'><b>navigateToRegistrationPageTest</b><br>Test class: com.opencart.testcases.HomePageTest<br>Test method: TC_04_navigate to registration page</td>
-<td></td>
-<td>3</td>
-<td>com.opencart.testcases.HomePageTest@74fe5c40</td></tr>
-<tr>
-<td title='com.opencart.testcases.HomePageTest.verifyFeaturedCardsCountTest()'><b>verifyFeaturedCardsCountTest</b><br>Test class: com.opencart.testcases.HomePageTest<br>Test method: TC_03_Verifying the featured section cards count</td>
-<td></td>
-<td>0</td>
-<td>com.opencart.testcases.HomePageTest@74fe5c40</td></tr>
-<tr>
-<td title='com.opencart.testcases.RegistrationTest.verifyPrivacyPolicyNotSelectedErrorMessageTest()'><b>verifyPrivacyPolicyNotSelectedErrorMessageTest</b><br>Test class: com.opencart.testcases.RegistrationTest<br>Test method: TC_04_Verify that an error message is displayed when the privacy policy checkbox is not selected</td>
-<td></td>
-<td>1</td>
-<td>com.opencart.testcases.RegistrationTest@5c33f1a9</td></tr>
-<tr>
-<td title='com.opencart.testcases.MyAccountTest.verifyMyAccountMenuOptionTest()'><b>verifyMyAccountMenuOptionTest</b><br>Test class: com.opencart.testcases.MyAccountTest<br>Test method: TC_02_Verify My account options List</td>
-<td></td>
-<td>0</td>
-<td>com.opencart.testcases.MyAccountTest@223191a6</td></tr>
-<tr>
-<td title='com.opencart.testcases.MyAccountTest.verifyBrokenLinksInMyAccountPageTest()'><b>verifyBrokenLinksInMyAccountPageTest</b><br>Test class: com.opencart.testcases.MyAccountTest<br>Test method: TC_03_Verify the links status in my account page</td>
-<td></td>
-<td>32</td>
-<td>com.opencart.testcases.MyAccountTest@223191a6</td></tr>
-<tr>
-<td title='com.opencart.testcases.ForgotPasswordTest.verifyForgetPasswordWithRegisteredEmailTest()'><b>verifyForgetPasswordWithRegisteredEmailTest</b><br>Test class: com.opencart.testcases.ForgotPasswordTest<br>Test method: TC_01_Verify Forget Password Functionality with Registered Email Address</td>
-<td></td>
-<td>3</td>
-<td>com.opencart.testcases.ForgotPasswordTest@4550bb58</td></tr>
-<tr>
-<td title='com.opencart.testcases.HomePageTest.verifyOpenCartPageTitleTest()'><b>verifyOpenCartPageTitleTest</b><br>Test class: com.opencart.testcases.HomePageTest<br>Test method: TC_02_Verifying the opencart page title</td>
-<td></td>
-<td>0</td>
-<td>com.opencart.testcases.HomePageTest@74fe5c40</td></tr>
-<tr>
-<td title='com.opencart.testcases.RegistrationTest.verifyAccountRegistration()'><b>verifyAccountRegistration</b><br>Test class: com.opencart.testcases.RegistrationTest<br>Test method: TC_02_Verifying the account registration with already used email address</td>
-<td></td>
-<td>2</td>
-<td>com.opencart.testcases.RegistrationTest@5c33f1a9</td></tr>
-<tr>
-<td title='com.opencart.testcases.LoginTest.verifyLogin()'><b>verifyLogin</b><br>Test class: com.opencart.testcases.LoginTest<br>Test method: Tc_01_Verifying login with registered credentials</td>
-<td></td>
-<td>6</td>
-<td>com.opencart.testcases.LoginTest@c8c12ac</td></tr>
-<tr>
-<td title='com.opencart.testcases.HomePageTest.verifyOpenCartLogoTest()'><b>verifyOpenCartLogoTest</b><br>Test class: com.opencart.testcases.HomePageTest<br>Test method: TC_01_Verifying the opencart logo</td>
-<td></td>
-<td>0</td>
-<td>com.opencart.testcases.HomePageTest@74fe5c40</td></tr>
-<tr>
-<td title='com.opencart.testcases.ForgotPasswordTest.verifyForgetPasswordWithNon_RegisteredEmailTest()'><b>verifyForgetPasswordWithNon_RegisteredEmailTest</b><br>Test class: com.opencart.testcases.ForgotPasswordTest<br>Test method: TC_02_Verify Forget Password Functionality with Non-Registered Email Address</td>
-<td></td>
-<td>1</td>
-<td>com.opencart.testcases.ForgotPasswordTest@4550bb58</td></tr>
-<tr>
-<td title='com.opencart.testcases.RegistrationTest.verifyPrivacyPolicyPopupDisplayedTest()'><b>verifyPrivacyPolicyPopupDisplayedTest</b><br>Test class: com.opencart.testcases.RegistrationTest<br>Test method: TC_05_Verify that the Privacy Policy pop-up is displayed when the privacy policy link is clicked</td>
-<td></td>
-<td>0</td>
-<td>com.opencart.testcases.RegistrationTest@5c33f1a9</td></tr>
-<tr>
-<td title='com.opencart.testcases.MyAccountTest.performProductSearchTest()'><b>performProductSearchTest</b><br>Test class: com.opencart.testcases.MyAccountTest<br>Test method: TC_04_Perform the product search<br>Parameters: Macbook</td>
-<td></td>
-<td>1</td>
-<td>com.opencart.testcases.MyAccountTest@223191a6</td></tr>
-<tr>
-<td title='com.opencart.testcases.RegistrationTest.verifyPasswordMismatchErrorMessage()'><b>verifyPasswordMismatchErrorMessage</b><br>Test class: com.opencart.testcases.RegistrationTest<br>Test method: TC_03_Verify that an error message is displayed when the Password and Confirm Password fields do not match</td>
-<td></td>
-<td>2</td>
-<td>com.opencart.testcases.RegistrationTest@5c33f1a9</td></tr>
-<tr>
-<td title='com.opencart.testcases.MyAccountTest.performProductSearchTest()'><b>performProductSearchTest</b><br>Test class: com.opencart.testcases.MyAccountTest<br>Test method: TC_04_Perform the product search<br>Parameters: iMac</td>
-<td></td>
-<td>1</td>
-<td>com.opencart.testcases.MyAccountTest@223191a6</td></tr>
-<tr>
-<td title='com.opencart.testcases.MyAccountTest.verifyMyAccountHeaderList()'><b>verifyMyAccountHeaderList</b><br>Test class: com.opencart.testcases.MyAccountTest<br>Test method: TC_01_Verify My account Header List</td>
-<td></td>
-<td>0</td>
-<td>com.opencart.testcases.MyAccountTest@223191a6</td></tr>
+<td>com.opencart.testcases.MyAccountTest@222545dc</td></tr>
 </table><p>
 </body>
 </html>

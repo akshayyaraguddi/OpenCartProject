@@ -59,6 +59,9 @@ public class MyAccountPage extends BasePage
 	@FindBy(className="product-thumb")
 	private List<WebElement> searchedProducts;
 	
+	@FindBy(xpath="//input[@id='button-search']/following-sibling::p")
+	private WebElement noProductTextElement;
+	
 	//Actions
 	
 	public void clickOnMyAccountLink()
@@ -161,6 +164,12 @@ public class MyAccountPage extends BasePage
 	{
 		wait.until(ExpectedConditions.visibilityOfAllElements(searchedProducts));
 		return searchedProducts.size();
+	}
+	
+	public String getNoProductMatchText()
+	{
+		wait.until(ExpectedConditions.visibilityOf(noProductTextElement));
+		return noProductTextElement.getText();
 	}
 
 }
